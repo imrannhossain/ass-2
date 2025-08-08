@@ -28,14 +28,14 @@
 }
 
 /* header style added */
-
+.second-bg{
+    background-color: black;
+}
 
 .bg-header {
-    background: linear-gradient(180deg, #111111 0%, #222222 100%);
+   background: linear-gradient(180deg, #111111 0%, #222222 50%, black 100%);
     background-size: cover;
     padding: 0 80px;
-
-
 
 }
 
@@ -110,12 +110,13 @@ nav>ul>li {
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 20px;
+    opacity: 0.8;
 
 }
 
 
 .content-img {
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 .img {
@@ -182,6 +183,7 @@ nav>ul>li {
     font-weight: 400;
     font-size: 0.8rem;
     color: grey;
+    opacity: 0.8;
 
 
 }
@@ -200,6 +202,103 @@ nav>ul>li {
     position: absolute;
     margin-top: -450px;
 
+
+}
+
+/* added habit section */
+.habit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.habit-content>h3{
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-weight: 900;
+    margin-top: 20px;
+    
+}
+.habit-content>p{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: gray;
+    opacity: 0.8;
+    margin-top: 20px;
+
+}
+.content-images{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    gap: 80px;
+}
+.img-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+}
+.imges>h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: aliceblue;
+    margin-top: 20px;
+    
+}
+.imges>p{
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: grey;
+    margin-top: 5px;
+
+}
+
+
+/* run section added */
+
+.run-1{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+  
+}
+.run{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    gap: 50px;
+    padding: 30px;
+    border-radius: 15px;
+  
+   
+    
+}
+.run-img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.run-content>h3{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+    
+}
+.run-content>p{
+     color: grey;
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 20px;
+    margin-bottom: 20px;
+    
 
 }
 
@@ -360,8 +459,8 @@ nav>ul>li {
 
     .info-2 {
         padding: 20px 15px;
-        margin-left: 210px;
-        margin-top: -550px;
+        margin-left: 280px;
+        margin-top: -750px;
 
 
     }
@@ -369,8 +468,8 @@ nav>ul>li {
     #info {
         padding: 20px 10px;
         position: absolute;
-        margin-left: 20px;
-        margin-top: -270px;
+        margin-left: 50px;
+        margin-top: -450px;
 
     }
 
