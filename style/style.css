@@ -33,7 +33,8 @@
 .bg-header {
     background: linear-gradient(180deg, #111111 0%, #222222 100%);
     background-size: cover;
-    padding: 0 50px;
+    padding: 0 80px;
+
 }
 
 .brad-name {
@@ -46,6 +47,7 @@
     display: none;
     font-size: 2rem;
     cursor: pointer;
+    color: aliceblue;
 }
 
 .nav {
@@ -73,7 +75,7 @@ nav>ul {
 
 nav>ul>li {
     list-style: none;
-    color:whitesmoke ;
+    color: whitesmoke;
 }
 
 .home-style {
@@ -90,7 +92,6 @@ nav>ul>li {
     justify-content: center;
     align-items: center;
     gap: 200px;
-    margin-top: 50px;
 
 }
 
@@ -111,11 +112,12 @@ nav>ul>li {
 }
 
 
-
+.content-img{
+   max-width: 100%;
+}
 .img {
-    position: relative;
-    max-width: 100%;
-    height: auto;
+    width: 93%;
+    height:auto ;
 }
 
 .btn-primary {
@@ -146,8 +148,6 @@ nav>ul>li {
     padding: 30px 40px;
     border-radius: 10px;
     color: white;
-    font-size: 1rem;
-    font-weight: 700;
     max-width: 150px;
     margin-left: -120px;
     position: absolute;
@@ -182,17 +182,16 @@ nav>ul>li {
 
 
 }
-.info-2{
-      
-   
+
+.info-2 {
+
+
     gap: 15px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 30px 40px;
     border-radius: 10px;
     color: white;
-    font-size: 1rem;
-    font-weight: 700;
     max-width: 150px;
     margin-left: 250px;
     position: absolute;
@@ -214,5 +213,87 @@ nav>ul>li {
     .hamburger {
         display: block;
     }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-top: 20px;
+
+
+    }
+    
+
+    .content-title h3 {
+        font-size: 2rem;
+
+    }
+
+    .content-title p {
+
+        font-size: 0.8rem;
+
+
+    }
+
+    .nav {
+         
+        padding: 0;
+    }
+
+    .info-2 {
+        padding: 20px 15px;
+        margin-left: 190px;
+        margin-top: -520px;
+        
+        
+    }
+
+    #info {
+        padding: 20px 10px;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: -320px;
+
+    }
+    .content-img{
+        max-width:80%;
+    }
+    .img {
+        width: 100%;
+    }
+
+    .ball {
+        width: 30px;
+        height: 30px;
+    }
+
+    .info-1 {
+        font-size: 1rem;
+    }
+    .info-text {
+
+        font-size: 0.8rem;
+
+    }
+    .btn-primary {
+   
+    padding: 10px 25px;
+    
+
+
+}
+
+.btn-secondary {
+    padding: 10px 25px;
+   
+   
+
+}
+.bg-header {
+    padding: 10px 20px;
+
+}
+
 
 }
