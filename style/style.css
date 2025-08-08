@@ -1,66 +1,218 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:400;
-  font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-:root{
-    --btn-background:rgba(230, 83, 60, 1);
-    --btn-color:white;
-    --btn-weight:800;
-    --finess-color:rgba(230, 83, 60, 1);
+.ms-madi-regular {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --btn-background: rgba(230, 83, 60, 1);
+    --btn-color: white;
+    --btn-weight: 800;
+    --finess-color: rgba(230, 83, 60, 1);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 /* header style added */
-.brad-name{
+
+
+.bg-header {
+    background: linear-gradient(180deg, #111111 0%, #222222 100%);
+    background-size: cover;
+    padding: 0 50px;
+}
+
+.brad-name {
     color: var(--finess-color);
     font-size: 2.2rem;
 
 }
+
 .hamburger {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    padding: 30px 150px;
+
 }
 
-nav>ul{
+.list-style {
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+
+
+}
+
+nav>ul {
     display: flex;
     gap: 30px;
 }
-nav>ul>li{
+
+nav>ul>li {
     list-style: none;
-}
-.home-style{
-    background-color: var(--btn-background);
-   padding: 10px 40px;
-   text-align: center;
-   border-radius: 20px;
-   color:var(--btn-color) ;
-   font-weight: var(--btn-weight);
+    color:whitesmoke ;
 }
 
+.home-style {
+    background-color: var(--btn-background);
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 20px;
+    color: var(--btn-color);
+    font-weight: var(--btn-weight);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 50px;
+
+}
+
+.content-title h3 {
+    font-weight: 900;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+
+}
+
+.content-title p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+
+}
+
+
+
+.img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: var(--btn-background);
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    color: var(--btn-color);
+
+
+}
+
+.btn-secondary {
+    padding: 10px 40px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: var(--btn-color);
+
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    max-width: 150px;
+    margin-left: -120px;
+    position: absolute;
+    margin-top: -200px;
+
+
+
+}
+
+.ball {
+    width: 40px;
+    height: 40px;
+    background: var(--btn-background);
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.info-text {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: grey;
+
+
+}
+.info-2{
+      
+   
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    max-width: 150px;
+    margin-left: 250px;
+    position: absolute;
+    margin-top: -450px;
+
+
+}
 
 
 
 @media screen and (max-width:576px) {
-    
 
 
-.list-style { display: none; } 
-.hamburger {
-    display: block;
-  }
+
+    .list-style {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
 
 }
-
-
-
-
