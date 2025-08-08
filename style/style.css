@@ -35,6 +35,8 @@
     background-size: cover;
     padding: 0 80px;
 
+
+
 }
 
 .brad-name {
@@ -112,12 +114,13 @@ nav>ul>li {
 }
 
 
-.content-img{
-   max-width: 100%;
+.content-img {
+    max-width: 800px;
 }
+
 .img {
-    width: 93%;
-    height:auto ;
+    width: 100%;
+    height: auto;
 }
 
 .btn-primary {
@@ -222,7 +225,7 @@ nav>ul>li {
 
 
     }
-    
+
 
     .content-title h3 {
         font-size: 2rem;
@@ -237,7 +240,7 @@ nav>ul>li {
     }
 
     .nav {
-         
+
         padding: 0;
     }
 
@@ -245,8 +248,8 @@ nav>ul>li {
         padding: 20px 15px;
         margin-left: 190px;
         margin-top: -520px;
-        
-        
+
+
     }
 
     #info {
@@ -256,9 +259,11 @@ nav>ul>li {
         margin-top: -320px;
 
     }
-    .content-img{
-        max-width:80%;
+
+    .content-img {
+        max-width: 80%;
     }
+
     .img {
         width: 100%;
     }
@@ -271,29 +276,159 @@ nav>ul>li {
     .info-1 {
         font-size: 1rem;
     }
+
     .info-text {
 
         font-size: 0.8rem;
 
     }
+
     .btn-primary {
-   
-    padding: 10px 25px;
-    
+
+        padding: 10px 25px;
+
+
+
+    }
+
+    .btn-secondary {
+        padding: 10px 25px;
+
+
+
+    }
+
+    .bg-header {
+        padding: 10px 20px;
+
+    }
 
 
 }
 
-.btn-secondary {
-    padding: 10px 25px;
-   
-   
+@media screen and (min-width:320px) and (max-width:492px) {
+
+    .info-2 {
+        padding: 20px 15px;
+        margin-left: 150px;
+        margin-top: -400px;
+
+
+    }
+
+    #info {
+        padding: 20px 10px;
+        margin-top: -270px;
+
+    }
+
 
 }
-.bg-header {
-    padding: 10px 20px;
-
-}
 
 
-}
+@media screen and (min-width:577px) and (max-width:992px) {
+
+
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: 30px;
+        padding: 0 20px;
+
+    }
+
+
+    .content-title h3 {
+        font-size: 3rem;
+
+    }
+
+    .content-title p {
+
+        font-size: 0.8rem;
+
+
+    }
+
+    .nav {
+        display: flex;
+        padding: 0;
+
+    }
+
+    .info-2 {
+        padding: 20px 15px;
+        margin-left: 210px;
+        margin-top: -550px;
+
+
+    }
+
+    #info {
+        padding: 20px 10px;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: -270px;
+
+    }
+
+    .content-img {
+        max-width: 80%;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .ball {
+        width: 30px;
+        height: 30px;
+    }
+
+    .info-1 {
+        font-size: 1rem;
+    }
+
+    .info-text {
+
+        font-size: 0.8rem;
+
+    }
+
+    .btn-primary {
+
+        padding: 10px 25px;
+
+
+
+    }
+
+    .btn-secondary {
+        padding: 10px 25px;
+
+
+
+    }
+
+    .bg-header {
+        padding: 10px 20px;
+
+    }
+
+    .brad-name {
+        font-size: 1.8rem;
+    }
+
+    .list-style {
+        padding: 10px 2px;
+
+    }
+
+    .home-style {
+
+        padding: 5px 15px;
+
+
+    }
