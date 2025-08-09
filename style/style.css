@@ -698,7 +698,30 @@ footer>div {
     .team-imges {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
+    form>input {
+    width: 150px;
+   
+   
+}
+#gender {
+    width: 170px;
+    
+   
+}
+#activity {
+    width:355px;
+    
+}
+
+.run {
+    
+    padding:0 ;
+    justify-content: center;
+   
+}
+    
 
 }
 
