@@ -312,19 +312,35 @@ nav>ul>li {
 }
 
 /* added section bmi calculator */
-.bmi-cal{
+.bmi-cal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+
+}
+
+.bmi-content>h3 {
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+}
+
+.bmi-content>p {
+    color: grey;
+    font-size: 1rem;
+    font-weight: 400;
+
 }
 
 
 
 /* added section calculation */
 
-.calculator{
+.calculator {
     margin-top: 80px;
     display: flex;
     justify-content: center;
@@ -332,18 +348,14 @@ nav>ul>li {
     justify-items: center;
     gap: 80px;
     background-color: #222222;
-    padding: 70px;
 }
-
-
-
-
 
 
 table {
     border-collapse: collapse;
 }
-caption{
+
+caption {
     font-size: 1.5rem;
     font-weight: 900;
     color: aliceblue;
@@ -359,76 +371,172 @@ th {
     text-align: left;
     padding: 10px 20px;
 }
-th{
+
+th {
     color: aliceblue;
     font-size: 1rem;
 }
-td{
+
+td {
     font-size: 0.8rem;
 }
 
 
-form>input{
-     width: 200px;
+form>input {
+    width: 200px;
     height: 20px;
     margin: 5px;
     border-radius: 10px;
     padding: 10px;
     background: rgba(255, 255, 255, 0.1);
-     color: aliceblue;
-     border: none;
+    color: aliceblue;
+    border: none;
 
-    
-    
+
+
 }
 
-#sex{
+#sex {
     width: 220px;
     margin: 5px;
-     border-radius: 10px;
-     padding: 10px ; 
+    border-radius: 10px;
+    padding: 10px;
     background: rgba(255, 255, 255, 0.1);
     color: grey;
-  border: none;
-     
-     
-     
+    border: none;
+
+
+
 }
 
-option{
+option {
     color: grey;
 }
-#activity{
+
+#activity {
     width: 455px;
     margin: 5px;
-     border-radius: 10px;
-     margin-bottom: 15px;
-     padding: 10px ; 
-      background: rgba(255, 255, 255, 0.1);
-     color: grey;
-     border: none;
-     margin-bottom: 50px;
-      
-     
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: grey;
+    border: none;
+    margin-bottom: 50px;
+
+
 
 }
 
-.form>h3{
+.form>h3 {
     color: aliceblue;
     font-size: 1.5rem;
     font-weight: 900;
     margin-top: 50px;
     margin-bottom: 15px;
 }
-.form>p{
+
+.form>p {
     color: gray;
     font-size: 0.8rem;
     font-weight: 400;
     margin-top: 4px;
     opacity: 0.7;
-     margin-bottom: 15px;
+    margin-bottom: 15px;
 
 }
+
+.team-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-content>h3 {
+    font-size: 2rem;
+    color: aliceblue;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.team-content>p {
+    font-size: 1rem;
+    color: grey;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+.team {
+
+    margin-top: 80px;
+
+}
+
+.team-our {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.team-imges {
+
+    background: grey;
+    border-radius: 10px;
+
+
+}
+
+.team-im-1 {
+    width: 300px;
+    height: 212px;
+    border-radius: 20px;
+}
+
+.team-imges {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.img-team>h4 {
+    color: aliceblue;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+
+
+
+}
+
+.img-team>h5 {
+    color: white;
+    opacity: 0.7;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

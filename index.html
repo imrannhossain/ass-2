@@ -69,7 +69,7 @@
 
 
 
-    <!-- <main class="second-bg"> -->
+    <main class="second-bg">
 
     <section class="habit">
         <div class="habit-content">
@@ -124,7 +124,8 @@
     <section class="bmi-cal">
         <div class="bmi-content">
             <h3>BMI Calculator</h3>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of br income or access to a gym.
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a
+                gym.
             </p>
         </div>
 
@@ -134,72 +135,124 @@
 
     <section class="bmi-table">
         <div class="calculator">
-        <div class="calculator-table">
+            <div class="calculator-table">
 
-            <table>
-                <caption>BMI Calculator Chart</caption>
-                <thead>
-                    <tr>
-                        <th>BMI </th>
-                        <th>Weight Status</th>
-                    </tr>
+                <table>
+                    <caption>BMI Calculator Chart</caption>
+                    <thead>
+                        <tr>
+                            <th>BMI </th>
+                            <th>Weight Status</th>
+                        </tr>
 
-                </thead>
+                    </thead>
 
-                <tbody>
-                    <tr>
-                        <td>Below 18.5</td>
-                        <td>Underweight</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
 
-                    <tr>
-                        <td>18.5 - 24.9</td>
-                        <td>Healthy</td>
-                    </tr>
-                    <tr>
-                        <td>25.0 - 29.9</td>
-                        <td>Overweight</td>
-                    </tr>
-                    <tr>
-                        <td>30.0 - and Above</td>
-                        <td>Obese</td>
-                    </tr>
-                </tbody>
-            </table>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <section class="bmi-section">
+                <div class="form">
+                    <h3>Calculate your BMI</h3>
+                    <p>
+                        We believe fitness should be accessible <br> to everyone, everywhere, regardless of
+                        income or access to a gym.
+                    </p>
+                    <div>
+
+                        <form action="">
+                            <input class="input" type="number" placeholder="Height (cm)" required>
+                            <input type="number" placeholder="Weight (kg)" required> <br>
+                            <input type="number" placeholder="Age" required>
+
+                            <select id="sex" name="sex" required>
+                                <option value="">Sex</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select> <br>
+
+                            <select id="activity" name="activity" required>
+                                <option value="">Select an activity factor</option>
+                                <option value="Gym">Gym</option>
+                                <option value="Run">Run</option>
+                            </select>
+                            <div>
+                                <button class="btn-primary" type="submit">Calculate</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
         </div>
+    </section>
 
-       <section class="bmi-section">
-    <div class="form">
-        <h3>Calculate your BMI</h3>
-        <p>
-            We believe fitness should be accessible <br> to everyone, everywhere, regardless of 
-            income or access to a gym.
-        </p>
-        <div>
 
-        <form action="">
-            <input class="input" type="number" placeholder="Height (cm)" required>
-            <input type="number" placeholder="Weight (kg)" required> <br>
-            <input type="number" placeholder="Age" required>
+    <section class="team">
 
-            <select id="sex" name="sex" required>
-                <option value="">Sex</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-            </select> <br>
+        <div class="team-content">
+            <h3>Meet Our Team</h3>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a
+                gym.</p>
 
-            <select id="activity" name="activity" required>
-                <option value="">Select an activity factor</option>
-                <option value="Gym">Gym</option>
-                <option value="Run">Run</option>
-            </select> 
-            <div>
-           <button class="btn-primary" type="submit">Calculate</button></div>
-        </form>
         </div>
-    </div>
-    </div>
-</section>
+        <div class="team-our">
+            <div class="team-imges">
+                <div class="img-team">
+                    <img class="team-im-1" src="images/trainer1.png" alt="">
+                    <h4>Jerome Bell</h4>
+                    <h5>Trainer</h5>
+
+                </div>
+                <div class="img-team">
+                    <img class="team-im-1" src="images/trainer2.png" alt="">
+                    <h4>Cameron Williamson</h4>
+                    <h5>Trainer</h5>
+
+                </div>
+                <div class="img-team">
+                    <img class="team-im-1" src="images/trainer3.png" alt="">
+                    <h4>Darrell Steward</h4>
+                    <h5>Trainer</h5>
+
+                </div>
+                <div class="img-team">
+                    <img class="team-im-1" src="images/trainer4.png" alt="">
+                    <h4>Dianne Russell</h4>
+                    <h5>Trainer</h5>
+
+                </div>
+                <div class="img-team">
+                    <img class="team-im-1" src="images/trainer5.png" alt="">
+                    <h4>Cody Fisher</h4>
+                    <h5>Trainer</h5>
+
+                </div>
+                <div class="img-team">
+                    <img class="team-im-1" src="images/trainer6.png" alt="">
+                    <h4>Theresa Webb</h4>
+                    <h5>Trainer</h5>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
